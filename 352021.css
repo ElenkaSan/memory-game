@@ -1,0 +1,211 @@
+
+body {
+    background: linear-gradient(
+      325deg, #fc7900 10%, #02ccba 50%, #aa7ecd 80%);
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    text-align: center;
+    font-family: Fredoka;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+  }
+
+  h1 {
+    Color: rgb(207, 189, 30);
+    font-family: Fredoka;
+    font-size: 4em;  
+    text-shadow: 2px 3px 15px rgb(10, 99, 10);
+    margin: 30px;
+    transition: ease-in 3s;
+    
+  }
+
+div {
+   box-shadow: 0 0 1px rgb(143, 17, 17) inset;
+   text-align: center;
+   overflow: hidden;
+   font-size: 70pt;
+   background: rgb(228, 213, 7);
+   width: 230px;
+   height: 120px;
+   margin: 0.3em;
+   display: inline-block;
+   box-shadow: 1px 1px 1px rgba(24, 6, 88, 0.3);
+   transform: scale(0.95);
+   transform-style: preserve-3d;
+   transition: all 1s ease; 
+   border-radius: 5px;
+   user-select: none;
+   line-height: 100px;
+   
+}
+.hind {
+   transform: rotateX(180deg);
+   -webkit-transform: rotateX(0deg);
+   color: transparent;
+   background-image: url("https://mdbootstrap.com/img/Photos/Others/water-lily.jpg"); 
+   background-size: cover;
+   border: 2px solid black;
+   width: 230px;
+   height: 120px;
+   margin: 0.3em;
+   border-radius: 5px;
+   transform-style: preserve-3d;
+   transition: all 1s ease;  
+   position: relative;
+   box-shadow: 1px 1px 1px rgba(24, 6, 88, 0.3);
+   cursor: pointer;
+   transition: transform 0.3s;
+  
+}
+
+.disabled {
+   background: rgb(250, 130, 97);
+   border-radius: 5px;
+}
+
+button {
+    background-color: rgb(205, 247, 17);
+    border-color: black;
+    color: rgb(54, 22, 233);
+    font-size: 1.8rem;
+    border-radius: 10px;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 2em auto;
+    display: block;
+    outline: none;
+    font-family: Fredoka;
+}    
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(15, 207, 185, 0.897);
+}
+
+@media screen and (max-width: 1111px) {
+   h1 {
+      Color:  rgb(80, 69, 235);
+      font-size: 3.7em;  
+      text-shadow: 5px 5px 15px rgb(6, 7, 68);
+    }  
+
+   div {
+      font-size: 70pt;
+      width: 200px;
+      height: 120px;
+      margin: 0.12em;
+   }
+   .hind {
+      width: 200px;
+      height: 120px;
+      margin: 0.12em;
+      text-align: center
+   }
+   button {
+      font-size: 1.7rem;
+      border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 816px) and (max-width: 1009px) {
+    h1 {
+      Color:  rgb(69, 235, 219);
+      font-size: 3.2em;  
+      text-shadow: 5px 5px 15px rgb(6, 7, 68);
+    }  
+
+   div {
+      font-size: 60pt;
+      width: 170px;
+      height: 110px;
+      margin: 0.2em;
+   }
+   .hind {
+      width: 170px;
+      height: 110px;
+      margin: 0.2em;
+      text-align: center
+   }
+   button {
+      font-size: 1.5rem;
+      border-radius: 5px;
+  }
+}
+
+
+@media screen and (min-width: 609px) and (max-width: 816px) {
+   h1 {
+      Color:  rgb(69, 235, 119);
+      font-size: 3em;  
+      text-shadow: 5px 5px 15px rgb(6, 7, 68);
+    }   
+
+   div {
+      font-size: 50pt;
+      width: 150px;
+      height: 100px;
+      margin: 0.1em;
+   }
+   .hind {
+      width: 150px;
+      height: 100px;
+      margin: 0.1em;
+      text-align: center
+   }
+   button {
+      font-size: 1.2rem;
+      border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 609px) {
+   h1 {
+     Color:  rgb(235, 144, 69);
+     font-size: 2.6em;  
+     text-shadow: 5px 5px 15px rgb(6, 7, 68);
+   }  
+   
+    #cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+      grid-auto-rows: minmax(200px, auto);
+      grid-gap: 1rem;
+    }
+
+   div {
+      font-size: 45pt;
+      width: 110px;
+      height: 90px;
+      margin: 0.1em;
+ 
+   }
+   body {
+     width: auto;
+     padding: auto;
+     border-radius: 10px;
+     box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+     margin: 0;
+     padding: 0;
+     height: 130%;
+     
+   }
+
+   .hind {
+      width: 110px;
+      height: 90px;
+      margin: 0.1em;
+      transform-style: preserve-3d;
+      transition: all 1s ease;  
+      box-shadow: 1px 1px 1px rgba(24, 6, 88, 0.3);
+      cursor: pointer;
+      transition: transform 0.3s;
+   }
+
+   button {
+      font-size: 1rem;
+      border-radius: 5px;
+  }
+ }
