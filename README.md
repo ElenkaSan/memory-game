@@ -1,5 +1,5 @@
-### memory-game (Mar 6, 2021).
-Play live game here: https://elenkasan.github.io/memory-game/
+# memory-game (Mar 6, 2021).
+## Play live game here: https://elenkasan.github.io/memory-game/
 
 Computer:
 
